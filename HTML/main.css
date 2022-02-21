@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+
+* {
+    font-family: 'Montserrat';
+}
+body,p,h1,h2 {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 30px;
+    padding: 30px;
+    border: 1px solid #eee;
+    box-shadow: 1px 0px 20px 1px #7c7c7c;
+}
+
+.title {
+    text-align: right;
+}
+.name {
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    font-style: italic;
+}
+.job {
+    font-size: 16px;
+    font-weight: bold;
+    color: #7c7c7c;
+}
+.main-title {
+    border-bottom: 1px solid #eee;
+    font-size: 24px;
+    font-weight: lighter;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.text {
+    font-size: 10px;
+    line-height: 16px;
+    padding-bottom: 10px;
+}
+.main-text {
+    font-size: 11px;
+    padding-bottom: 10px;
+}
+.sub-text {
+    font-size: 11px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.float-wrap {
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.title-text {
+    float: left;
+    font-size: 12px;
+}
+.title-year {
+    float: right;
+    font-size: 12px;
+}
+.sns {
+    text-align: right;
+}
+.sns-img {
+    width: 12px;
+    height: 12px;
+}
+.footer {
+    text-align: center;
+    background-color: #1e1e1e;
+    color: #7c7c7c;
+    padding:30px
+}
